@@ -31,7 +31,7 @@ int main() {
 	cout << "이름은 " << name << "입니다\n";
 	*/
 
-	// 예제 2-5
+	/* 예제 2-5
 	char password[11];
 
 	cout << "프로그램을 종료하려면 암호를 입력하세요 >> " << endl;
@@ -45,12 +45,28 @@ int main() {
 		else {
 			cout << "암호가 틀렸습니다. 확인 후 다시 입력하세요!" << endl;
 		}
-
 	}
+	*/
 
 	/*
 	위의 예제를 보면서 띄어쓰기가 존재한다면 그 전까지만 문자열로 인식하는 문제가 있다.
 
-	
+	이번에는 cin.getline()을 이용하여 공백이 포함된 문자열을 입력해보자
+	cin.getline(char buf[], int size, char delimitChar)
+	buf : 키보드로부터 읽은 문자열을 저장할 배열
+	size : buf[]의 크기
+	delimitChar : 문자열 입력 끝을 지정하는 구분 문자
 	*/
+
+	// 2-6 예제
+	cout << "주소를 입력해주세요 >> ";
+
+	char address[100];
+
+	cin.getline(address, 100, '\n'); // Enter 키가 입력될 때까지 최대 99개의 문자 입력
+
+	cout << "주소는 " << address << " 입니다\n"; // 주소출력
+
+	
+
 }
