@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2장", "2장", "{1D14113F-2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_01", "..\2장_C++_Class and Object_01\2장_C++_Class and Object_01.vcxproj", "{C398D4B2-6741-46A1-86F5-65888CA89877}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_02", "..\2장_C++_Class and Object_02\2장_C++_Class and Object_02.vcxproj", "{93673E44-6334-414F-9EF9-DAD04ED01D3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -85,6 +87,14 @@ Global
 		{C398D4B2-6741-46A1-86F5-65888CA89877}.Release|x64.Build.0 = Release|x64
 		{C398D4B2-6741-46A1-86F5-65888CA89877}.Release|x86.ActiveCfg = Release|Win32
 		{C398D4B2-6741-46A1-86F5-65888CA89877}.Release|x86.Build.0 = Release|Win32
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Debug|x64.ActiveCfg = Debug|x64
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Debug|x64.Build.0 = Debug|x64
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Debug|x86.Build.0 = Debug|Win32
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Release|x64.ActiveCfg = Release|x64
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Release|x64.Build.0 = Release|x64
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Release|x86.ActiveCfg = Release|Win32
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +106,7 @@ Global
 		{23136936-5841-45D5-A559-103A2C779F3D} = {C149EB2D-D8F7-417E-9E8D-6ED0C90B0C93}
 		{3093D0EF-DBEF-4664-A87F-9C34AECA792E} = {C149EB2D-D8F7-417E-9E8D-6ED0C90B0C93}
 		{C398D4B2-6741-46A1-86F5-65888CA89877} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
+		{93673E44-6334-414F-9EF9-DAD04ED01D3E} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
