@@ -49,7 +49,7 @@ Point::Point(int a, int b) : x(a), y(b) {}
 
 int main() {
 	Point origin; // 위임 생성자를 호출
-	Point target(10, 20); // 타겟 생성자에 (int a, int b)를 넣어 호출
+	Point target(30, 60); // 타겟 생성자에 (int a, int b)를 넣어 호출
 	origin.show(); // 위임 생성자의 show() 함수를 호출
 	target.show(); // 타겟 생성자의 show() 함수를 호출 
 }
