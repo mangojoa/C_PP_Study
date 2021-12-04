@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_09", "..\2장_C++_Class and Object_09\2장_C++_Class and Object_09.vcxproj", "{8F518AE5-8B96-4AE3-8FB9-53999B3101CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_10", "..\2장_C++_Class and Object_10\2장_C++_Class and Object_10.vcxproj", "{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -165,6 +167,14 @@ Global
 		{8F518AE5-8B96-4AE3-8FB9-53999B3101CB}.Release|x64.Build.0 = Release|x64
 		{8F518AE5-8B96-4AE3-8FB9-53999B3101CB}.Release|x86.ActiveCfg = Release|Win32
 		{8F518AE5-8B96-4AE3-8FB9-53999B3101CB}.Release|x86.Build.0 = Release|Win32
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Debug|x64.ActiveCfg = Debug|x64
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Debug|x64.Build.0 = Debug|x64
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Debug|x86.Build.0 = Debug|Win32
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Release|x64.ActiveCfg = Release|x64
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Release|x64.Build.0 = Release|x64
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Release|x86.ActiveCfg = Release|Win32
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +194,7 @@ Global
 		{A4BDA54E-86D4-40B7-B801-DC1F8B88140A} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 		{3916777D-8793-4666-ACD8-78E32EE399C0} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 		{8F518AE5-8B96-4AE3-8FB9-53999B3101CB} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
+		{BBF92C9E-317A-4D55-834D-11FD2F36CDFD} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
