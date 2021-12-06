@@ -45,6 +45,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_13", "..\2장_C++_Class and Object_13\2장_C++_Class and Object_13.vcxproj", "{C29BFC25-D3E4-459E-966F-F5818E95A29E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3장", "3장", "{C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memory_01", "..\3장_C++_Pointer_Array_Memory_01\3장_C++_Pointer_Array_Memory_01.vcxproj", "{F21F30F8-4B81-4200-8D6C-78B841728A84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -205,6 +209,14 @@ Global
 		{C29BFC25-D3E4-459E-966F-F5818E95A29E}.Release|x64.Build.0 = Release|x64
 		{C29BFC25-D3E4-459E-966F-F5818E95A29E}.Release|x86.ActiveCfg = Release|Win32
 		{C29BFC25-D3E4-459E-966F-F5818E95A29E}.Release|x86.Build.0 = Release|Win32
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Debug|x64.ActiveCfg = Debug|x64
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Debug|x64.Build.0 = Debug|x64
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Debug|x86.ActiveCfg = Debug|Win32
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Debug|x86.Build.0 = Debug|Win32
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Release|x64.ActiveCfg = Release|x64
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Release|x64.Build.0 = Release|x64
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Release|x86.ActiveCfg = Release|Win32
+		{F21F30F8-4B81-4200-8D6C-78B841728A84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +240,7 @@ Global
 		{2F22FA9B-95B2-43EC-9668-9755BE7DEB25} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 		{97A81E5A-26F4-4D6E-9512-A5D93D7B04EA} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
 		{C29BFC25-D3E4-459E-966F-F5818E95A29E} = {1D14113F-2B4B-405E-A6B6-FDC9CBB57399}
+		{F21F30F8-4B81-4200-8D6C-78B841728A84} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
