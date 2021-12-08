@@ -35,17 +35,18 @@ class Circle {
 	int radius;
 public:
 	Circle();
-	Circle(int r);
-	~Circle();
+	// Circle(int r);
+	~Circle() {  }
 	void setRadius(int r) { radius = r; }
 	double getArea() { return 3.14 * radius * radius; }
 };
 
 Circle::Circle() {
 	radius = 1;
-	cout << "생성자 실행 radius = " << radius << endl;
+	// cout << "생성자 실행 radius = " << radius << endl;
 }
 
+/*
 Circle::Circle(int r) {
 	radius = r;
 	cout << "생성자 실행 radius = " << radius << endl;
@@ -54,8 +55,10 @@ Circle::Circle(int r) {
 Circle::~Circle() {
 	cout << "소멸자 실행 radius = " << radius << endl;
 }
+*/
 
 int main() {
+	/* 배열의 동적 생성 및 반환
 	Circle* pArray = new Circle[3];
 
 	pArray[0].setRadius(10);
@@ -72,5 +75,28 @@ int main() {
 	}
 
 	delete[] pArray; // 객체 배열 반환
-	
+	*/
+
+	// 응용
+	cout << "생성하고자 하는 원의 개수 >> ";
+	int n, radius;
+	cin >> n;
+	if (n <= 0) return 0; 
+	Circle *pArray = new Circle[n]; // n개의 Circle 배열 생성
+	for (int i = 0; i < n; i++) {
+		cout << "원" << i + 1 << ": "; // 프롬프트 출력
+		cin >> radius; // 반지름 입력
+		pArray[i].setRadius(radius); // 각 Circle 객체를 반지름으로 초기화
+	}
+
+	int count = 0;
+	Circle* p = pArray;
+	for (int i = 0; i < n; i++) {
+		cout << p->getArea() << ' '; // 원의 면적 출력
+		if (p->getArea() >= 100 && p->getArea() <= 200) 
+			count++;
+		p++;
+	}
+	cout << endl << "면적이 100에서 200 사이인 원의 개수는 >> " << count << endl;
+	delete[] pArray;
 }
