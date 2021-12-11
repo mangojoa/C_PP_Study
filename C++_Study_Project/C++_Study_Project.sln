@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memory_10", "..\3장_C++_Pointer_Array_Memory_10\3장_C++_Pointer_Array_Memory_10.vcxproj", "{952BB8B9-6061-4ED5-A9B3-A99376A26CCB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memory_11", "..\3장_C++_Pointer_Array_Memory_11\3장_C++_Pointer_Array_Memory_11.vcxproj", "{66BB9947-B334-4DA2-9327-FE98F3715575}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -307,6 +309,14 @@ Global
 		{952BB8B9-6061-4ED5-A9B3-A99376A26CCB}.Release|x64.Build.0 = Release|x64
 		{952BB8B9-6061-4ED5-A9B3-A99376A26CCB}.Release|x86.ActiveCfg = Release|Win32
 		{952BB8B9-6061-4ED5-A9B3-A99376A26CCB}.Release|x86.Build.0 = Release|Win32
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Debug|x64.ActiveCfg = Debug|x64
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Debug|x64.Build.0 = Debug|x64
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Debug|x86.ActiveCfg = Debug|Win32
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Debug|x86.Build.0 = Debug|Win32
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Release|x64.ActiveCfg = Release|x64
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Release|x64.Build.0 = Release|x64
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Release|x86.ActiveCfg = Release|Win32
+		{66BB9947-B334-4DA2-9327-FE98F3715575}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +350,7 @@ Global
 		{14548330-6AB8-47C6-A4FE-EED4F1F071C2} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
 		{55C93E09-0DD7-4C17-9896-8DE07754EF7F} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
 		{952BB8B9-6061-4ED5-A9B3-A99376A26CCB} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
+		{66BB9947-B334-4DA2-9327-FE98F3715575} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
