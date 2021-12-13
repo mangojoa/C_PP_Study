@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_01"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_02", "..\4장_Function_Reference_02\4장_Function_Reference_02.vcxproj", "{9511E4F6-F33E-4C17-8EF5-0505FC61682A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_03", "..\4장_Function_Reference_03\4장_Function_Reference_03.vcxproj", "{AB83E560-EE0A-4757-ACC4-AFF000513E16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -359,6 +361,14 @@ Global
 		{9511E4F6-F33E-4C17-8EF5-0505FC61682A}.Release|x64.Build.0 = Release|x64
 		{9511E4F6-F33E-4C17-8EF5-0505FC61682A}.Release|x86.ActiveCfg = Release|Win32
 		{9511E4F6-F33E-4C17-8EF5-0505FC61682A}.Release|x86.Build.0 = Release|Win32
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Debug|x64.ActiveCfg = Debug|x64
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Debug|x64.Build.0 = Debug|x64
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Debug|x86.Build.0 = Debug|Win32
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Release|x64.ActiveCfg = Release|x64
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Release|x64.Build.0 = Release|x64
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Release|x86.ActiveCfg = Release|Win32
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -397,6 +407,7 @@ Global
 		{BFDD93FE-A70D-4D19-83DE-876997C07A06} = {C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}
 		{E7DC2DBA-7926-4CFD-AF2D-C124A40F16C7} = {6DEA4857-864A-4642-8DA1-051E9B2415F9}
 		{9511E4F6-F33E-4C17-8EF5-0505FC61682A} = {6DEA4857-864A-4642-8DA1-051E9B2415F9}
+		{AB83E560-EE0A-4757-ACC4-AFF000513E16} = {6DEA4857-864A-4642-8DA1-051E9B2415F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
