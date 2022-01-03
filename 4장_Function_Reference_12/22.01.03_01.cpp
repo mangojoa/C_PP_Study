@@ -10,9 +10,9 @@
 원본 객체가 할당받은 메모리를 사본 객체가 공유하게 된다. 
 */
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
-#define _CRT_SECURE_NO_WARNINGS
 using namespace std;
 
 class Person { // Person 클래스 선언 
