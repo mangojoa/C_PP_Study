@@ -41,3 +41,9 @@ int main() {
 	cout << "생존하고 있는 원의 개수 = " << Circle::getNumOfCircles() << endl;
 
 }
+
+/* [22.01.09] static 맴버 함수의 특징
+static 맴버 함수는 오직 static 맴버 변수에 접근하거나 static 맴버 함수만 호출할 수 있다
+static 맴버 함수는 객체가 생성되지 않은 어떤 시점에서도 호출될 수 있고,
+클래스 이름으로 직접 호출할 수 있기 때문에, static 맴버 함수에서 non-static 맴버에 접슨하는 것은 허용되지 않는다.
+*/
