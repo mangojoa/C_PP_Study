@@ -19,4 +19,50 @@
 		Power operator+ (Power op2); // + 연산자 함수 선언
 	};
 
+연산자 함수 구현
+	+ 연산은 Power 객체의 kick 맴버와 punch 맴버를 각각 더하는 것이므로
+	Power Power::operator+(Power op2) {
+		Power tmp;
+		tmp.kick = this->kick + op2.kick;
+		tmp.punch = this->punch + op2.punch;
+		return tmp;
+	}
+
+	여기서, this는 Power 객체 a 자신에 대한 포인터이며 op2는 객체 Power 객체 b를 전달받은 매개 변수이므로,
+	this->kick + op2.kick;은 a의 kick과 b의 kick을 더하는 것이다. 
+	이 연산자 함수는 더한 결과 tmp 객체를 리턴한다.
 */
+
+#include <iostream>
+using namespace std;
+
+class Power {
+	int kick;
+	int punch;
+public:
+	Power(int kick = 0, int punch = 0) {
+		this->kick = kick; this->punch = punch;
+	}
+	void show();
+	Power operator+ (Power op2); // Power& op2 연산자 함수 선언
+};
+
+void Power::show() {
+	cout << "kick = " << kick << "," << "punch = " << punch << endl;
+}
+
+Power Power::operator+(Power op2) {
+	Power tmp; // 임시 객체 생성 
+	tmp.kick = this->kick + op2.kick; // kick 더하기
+	tmp.punch = this->punch + op2.punch; // punch 더하기
+	return tmp; // 더한 결과 리턴
+}
+
+int main() {
+	Power a(3, 5), b(4, 9), c;
+	c = a + b; // 파워 객체 + 연산
+	a.show();
+	b.show();
+	c.show();
+
+}
