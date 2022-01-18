@@ -17,7 +17,7 @@
 
 연산자 함수 구현
 	Power Power::operator++(int x) {
-		Power tmp = *this; // 증가 이전 개게 상태 저장
+		Power tmp = *this; // 증가 이전 객체 상태 저장
 		kick++;
 		punch++;
 		return tmp; // 증가 이전의 객체 (객체 a) 리턴
@@ -52,9 +52,9 @@ Power Power::operator++(int x) {
 
 int main() {
 	Power a(3, 5), b;
-	a.show();
-	b.show();
-	b = a++;
-	a.show();
-	b.show();
+	a.show(); // 3 5
+	b.show(); // 0 0 
+	b = a++;  // a 값에 ++ 
+	a.show(); // 4 6 
+	b.show(); // 3 5
 }
