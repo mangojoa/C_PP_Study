@@ -16,7 +16,7 @@
 	bool Power::operator==(Power op2) {
 		if (kick == op2.kick && punch == op2.punch) return true;
 		else return false;
-	}
+	} 
 	여기서 kick과 punch는 객체 a의 맴버이며, op2.kick과 op2.punch는 객체 b의 맴버들이다.
 */
 

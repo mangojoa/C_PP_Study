@@ -16,7 +16,7 @@
 	우리는 이 호출이 성공할 수 있도록 다음과 같이 operator+() 함수를 Power 클래스의 맴버 함수로 선언한다. 
 
 	class Power {
-		Power operator+ (Power op2); // + 연산자 함수 선언
+		Power operator+ (Power op2); // + 연산자 함수 선언 
 	};
 
 연산자 함수 구현
