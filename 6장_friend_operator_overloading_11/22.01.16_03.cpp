@@ -38,7 +38,7 @@ public:
 	void show();
 	Power operator++(int x); // 후위 ++ 연산자 함수 선언
 };
-
+ 
 void Power::show() {
 	cout << "kick = " << kick << " ," << "punch = " << punch << endl;
 }

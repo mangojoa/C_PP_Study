@@ -61,5 +61,5 @@ int main() {
 	c = a += b; // operator+=() 맴버 함수 호출
 
 	a.show();
-	c.show();
+	c.show(); 
 }

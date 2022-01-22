@@ -1,7 +1,7 @@
 /* [22.01.14] == 연산자 중복 
 연산자 착안
 	Power a(3, 5), b(3, 6);
-	if ( a == b ) cout << "sames two powers";
+	if ( a == b ) cout << "sames two powers"; 
 	else cout << "not sames two powers";
 
 	구체적으로 == 연산자는 두 피연산자의 kick 과 punch가 각각 같으면 ture를,
