@@ -24,7 +24,7 @@ int main() {
 
 /* [22.01.05] 포인터 변수의 디폴트 값
 포인터 면수를 디폴트 매개 변수로 선언할 때 다름과 같이 디폴트 값을 줄 수 있다.
-void f(int *p = NULL);
+void f(int *p = NULL); 
 void g(int x[] = NULL);
 void h(const char *s = "Hello");
 */

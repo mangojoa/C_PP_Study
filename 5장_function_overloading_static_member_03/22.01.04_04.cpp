@@ -14,7 +14,7 @@ star() 함수는
 star(); // 매개 변수 a에 디폴트 값 5 자동 전달 
 star(10); // 매개 변수 a에 10 전달
 
-디폴트 매개 변수 사례
+디폴트 매개 변수 사례 
 void msg(int id, string text = "Hello"); // test의 디폴트 값은 "Hello"
 
 msg() 호출 가능 
