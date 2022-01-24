@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overlo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overloading_13", "..\6장_friend_operator_overloading_13\6장_friend_operator_overloading_13.vcxproj", "{1ACD4565-06F0-4B67-AE86-59C13D6C5EF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overloading_14", "..\6장_friend_operator_overloading_14\6장_friend_operator_overloading_14.vcxproj", "{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -733,6 +735,14 @@ Global
 		{1ACD4565-06F0-4B67-AE86-59C13D6C5EF0}.Release|x64.Build.0 = Release|x64
 		{1ACD4565-06F0-4B67-AE86-59C13D6C5EF0}.Release|x86.ActiveCfg = Release|Win32
 		{1ACD4565-06F0-4B67-AE86-59C13D6C5EF0}.Release|x86.Build.0 = Release|Win32
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Debug|x64.ActiveCfg = Debug|x64
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Debug|x64.Build.0 = Debug|x64
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Debug|x86.Build.0 = Debug|Win32
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Release|x64.ActiveCfg = Release|x64
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Release|x64.Build.0 = Release|x64
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Release|x86.ActiveCfg = Release|Win32
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -808,6 +818,7 @@ Global
 		{D7181826-FCC9-461C-B927-7A0EAB250627} = {8DD61113-6136-40DD-A635-F61548973662}
 		{650C95F7-6AB0-47CE-8691-1E49BEFEA909} = {8DD61113-6136-40DD-A635-F61548973662}
 		{1ACD4565-06F0-4B67-AE86-59C13D6C5EF0} = {8DD61113-6136-40DD-A635-F61548973662}
+		{B362E5D5-F1C9-489E-AD51-D61F0DD4F4F1} = {8DD61113-6136-40DD-A635-F61548973662}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
