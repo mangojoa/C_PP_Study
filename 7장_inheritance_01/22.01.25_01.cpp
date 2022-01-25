@@ -44,4 +44,44 @@ class MusicPhone : public MobilePhone {
 새로운 소프트웨어를 빠른 시간 내에 만들어낼 수 있게 한다.
 소프트웨어 생산성이 높아진다. 
 
+상속 선언
+class 선언 뒤에 콜론(:)과 기본 클래스 이름을 선언하면 된다. 
+이때 기본 클래스 이름 앞에 반드기 상속 접근을 지정해야 하는데
+public, private, protected 중 어떤 것도 가능하다.
 */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Point { // 2차원 평면에서 한 점을 표현하는 클래스 Point 선언
+	int x, y; // 한 점 (x,y) 좌표값
+public:
+	void set(int x, int y) {
+		this->x = x;
+		this->y = y;
+	}
+	void showPoint() {
+		cout << "(" << x << ", " << ")" << endl;
+	}
+};
+
+class ColorPoint : public Point { // 2차원 평면에서 컬러 점을 표현하는 클래스 ColorPoint, Point를 상속받음
+	string color; // 점의 색 표현
+public:
+	void setColor(string color) { this->color = color; }
+	void showColorPoint();
+};
+
+void ColorPoint::showColorPoint() {
+	cout << color << ":";
+	showPoint(); // Point의 showPoint() 호출
+}
+
+int main() {
+	Point p;
+	ColorPoint cp;
+	cp.set(3, 4);
+	cp.setColor("Red");
+	cp.showColorPoint();
+}
