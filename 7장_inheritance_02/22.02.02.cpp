@@ -29,7 +29,9 @@ void ColorPoint::showColorPoint() {
 int main() {
 	Point p; // 기본 클래스 객체 생성
 	ColorPoint cp; // 파생 클래스 객체 생성
-	cp.set(3, 4);
+
+
+	cp.set(3, 4); // 클래스 외부에서 파생 클래스의 맴버 호출
 	cp.setColor("Red");
 
 	// 파생 클래스에서 기본 클래스 맴버 접근
