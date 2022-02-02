@@ -62,7 +62,7 @@ public:
 		this->y = y;
 	}
 	void showPoint() {
-		cout << "(" << x << ", " << ")" << endl;
+		cout << "(" << x << ", " << y << ")" << endl;
 	}
 };
 
