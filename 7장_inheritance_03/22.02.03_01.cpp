@@ -38,7 +38,13 @@ int main() {
 	Point p; // 기본 클래스 객체 생성
 	ColorPoint cp; // 파생 클래스 객체 생성
 	ColorPoint* pDer = &cp;
+	/*
+	업 케스팅한 기본 클래스의 포인터로는 '기본 클래스의 맴버만 접근'할 수 있다. 
+	업 캐스팅 시 다음과 같이 명시적 타입 변환이 필요 없다
+	Point* pBase = (Point*)pDer; // (Point*) 생략이 가능하다.
+	*/
 	Point* pBase = pDer; // 업 케스팅
+
 	/*
 	기본 클래스 point 타입의 포인터 pBase로 파생 클래스인 ColorPoint 객체를 가리킨다.
 	하지만 pBase는 Point 클래스이 포인터이므로, pBase 포인터로는 ColorPoint 객체 내의 Point 클래스 맴버만 접근 할 수 있다.
