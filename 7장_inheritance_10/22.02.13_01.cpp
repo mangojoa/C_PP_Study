@@ -56,3 +56,7 @@ int main() {
 	cout << "2+4=" << handCalculator.calc('+', 2, 4) << endl;
 	cout << "100-4=" << handCalculator.calc('-', 100, 4) << endl;
 }
+
+/*
+다중 상속의 문제점 => 가상 상속을 통해 해결할 수 있다?
+*/
