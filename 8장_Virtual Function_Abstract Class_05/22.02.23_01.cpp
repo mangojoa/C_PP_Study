@@ -52,5 +52,67 @@ int main() {
 	동적 바인딩을 통해 Circle의 draw()를 호출한다. 
 	이처럼 기본 클래스에서 자신의 맴버를 호출하더라도 그것이 가상 함수이면 역시 동적 바인딩이 발생한다.
 		
+
+	C++11 에서 추가된 override와 final 지시어
+
+override 지시어 
+
+class Shape {
+public:
+	void paint() {
+		draw();
+	}
+	virtual void draw() {
+		cout << "Shape::draw() called" << endl;
+	}
+};
+
+class Circle : public Shape {
+public:
+	virtual void drow() {
+		cout << "Circle::draw() called" << endl;
+	}
+};
+
+Circle c;
+c.drow(); <= 이렇게 하면 Shape 클래스의 draw()를 호출한다. 
+이렇게 되면 자신이 코드를 잘못 작성한지 모르기 때문에 이에 대한 방안으로 override가 있다. 
+
+override 는 컴파일러에게 오버라이딩을 확안하도록 지시하는 것으로, 
+파생 클래스의 오버라이딩 하려는 가상 함수의 원형 바로 뒤에 작성한다.
+
+class Circle : public Shape {
+public:
+	virtual void drow() override <= 이런식으로 작성해주면 컴파일시 오류를 발생시키며 잘못 작성한줄 알게 된다. {
+		cout << "Circle::draw() called" << endl;
+	}
+};
+
+final 지시어
+
+final 지시어를 사용하면 파생 클래스에서 오버라이딩을 할 수 없게 하거나, 클래스의 상속 자체를 금지할 수 있다. 
+final 지시어를 사용하는 두 가지 경우 
+
+1. 다음과 같이 final 지시어를 가상 함수의 원형 바로 뒤에 작성하면 
+	파생클래스는 이 가상 함수를 오버라이딩 할 수 없다.
+
+class Shape {
+public:
+	void paint() {
+		draw();
+	}
+	virtual void draw() final; // draw()의 오버라이딩 금지 선언 
+};
+
+class Circle : public Shape {
+public:
+	virtual void draw() // 오버라이딩 금지로 인한 컴파일 오류가 발생 
+};
+
+
+2. 클래스 이름 바로 뒤에 final을 작성하면 다른 클래스는 이 클래스를 상속 받을 수 없다. 
+class Shape final { ... }; <= 상속금지 선언
+
+class Circle : public Shape { ... }; <= 상속금지 선언으로 인한 컴파일 오류
 	*/
 }
