@@ -114,5 +114,5 @@ public:
 class Shape final { ... }; <= 상속금지 선언
 
 class Circle : public Shape { ... }; <= 상속금지 선언으로 인한 컴파일 오류
-	*/
+	*/ 
 }
