@@ -74,4 +74,4 @@ int main() {
 
 	delete dp; // Derived 의 포인터로 소멸
 	delete bp; // Base 의 포인터로 소멸
-}
+} 
