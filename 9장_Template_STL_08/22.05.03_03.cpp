@@ -35,3 +35,20 @@ int main() {
 	char c[5] = { 1,2,3,4,5 };
 	print(c, 5);
 }
+
+/*
+템플릿 함수에 디폴트 매개 변수 사용
+
+템플릿에서 함수 선언에 디폴트 매개 변수를 사용할 수 있다.
+template <class T1, class T2>
+void mcopy(T1 src [], T2 dest [], int n) { // n의 디폴트 값은 5
+	for(int i = 0; i < n; i++) {
+		dest[i] = (T2)src[i];
+	}
+}
+
+mcopy()는 디폴트 매개 변수를 활용하여 다음과 같이 호출할 수 있다.
+int x[] = { 1,2,3,4,5 };
+double d[5];
+mcopy(x, d); // x[]의 원소 5 개를 d[]에 복사
+*/
