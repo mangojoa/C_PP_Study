@@ -41,7 +41,7 @@ int main() {
 
 템플릿에서 함수 선언에 디폴트 매개 변수를 사용할 수 있다.
 template <class T1, class T2>
-void mcopy(T1 src [], T2 dest [], int n) { // n의 디폴트 값은 5
+void mcopy(T1 src [], T2 dest [], int n) { // n의 디폴트 값은 5로 설정
 	for(int i = 0; i < n; i++) {
 		dest[i] = (T2)src[i];
 	}
