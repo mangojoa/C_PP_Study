@@ -34,13 +34,36 @@ v.push_back(1);
 v.push_back(2);
 v.push_back(3);
 
-vector의 원소 값 읽기 및 변경
+#vector의 원소 값 읽기 및 변경
 v.at(2) = 5; // v의 3번째 원소 값을 5로 변경
 int n = v.at(1); // v의 2번째 원소값을 읽어 n에 저장
 
-잘 보면 vector의 경우, [] 연산자가 작성되어 있기 때문에 백터를 배열처럼 쉽게 사용할 수 있다. 
+!!잘 보면 vector의 경우, [] 연산자가 작성되어 있기 때문에 백터를 배열처럼 쉽게 사용할 수 있다. 
 v[2] = 5;
 int n = v[1];
 
+#vector의 원소 삭제
+백터에 들어 있는 원소를 개별적으로 삭제하는 맴버함수로 erase()가 있지만
+erase()는 iterator와 함께 사용해야한다. 
+vector<int> ::iteractor it; // it은 정수 백터의 원소를 가리키는 포인터
+it = v.begin(); // it는 백터 v의 첫 번째 원소를 가리킨다.
+it = v.erase(it); // 백터 v에서 첫 번째 원소를 삭제한다.
 
+erase(it)은 it가 가리키는 원소를 삭제한 후, 백터의 원소들을 다시 앞으로 한 자리씩 이동시킨다.
+그리고 삭제된 다음 원소를 가리키는 포인터를 리턴한다.
+그러므로 erase(it) 후에는 다음과 같이 반드시 it이 리턴 값으로 치환되어야 한다.
+
+it = v.erase(it); // 삭제 후 erase()의 리턴 갑으로 it 재실행
+
+push_back(element)					백터의 마지막에 element 추가
+at(int index)						index 위치의 원소에 대한 참조 리턴
+begin()								백터의 첫 번째 원소에 대한 참조 리턴
+end()								백터의 끝을 가리키는 참조 리턴
+empty()								백터가 비어 있으면 true 리턴
+erase(iterator it)					백터에서 it가 가리키는 원소 삭제, 삭제 후 자동으로 백터 조절
+insert(iterator it, element)		백터 내 it 위치에 element 삽입
+size()								백터에 들어 있는 원소의 개수 리턴
+operator[]()						지정된 원소에 대한 참조 리턴
+operator=()							이 백터를 다른 백터에 치환(복사)
 */
+
