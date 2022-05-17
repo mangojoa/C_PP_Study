@@ -13,7 +13,7 @@ void a(int& x, int& y) {
 	int tmp;
 	tmp = x;
 	x = y;
-	b = tmp;
+	y = tmp;
 }
 
 void a(double& x, double& y) {
