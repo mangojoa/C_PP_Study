@@ -18,3 +18,28 @@ sort() 함수는 두 개의 매개 변수를 가지고 있다.
 첫 번째 매개 변수에 정렬을 시작할 원소에 대한 iterator 주소를,
 두 번째 매개 변수는 마지막 원소 다음의 iterator 주소를 주어야 한다. 
 */
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+	vector<int> v;
+
+	cout << "5개의 정수를 입력하세요 >> ";
+	for (int i = 0; i < 5; i++) {
+		int n;
+		cin >> n;
+		v.push_back(n);
+	}
+
+	sort(v.begin(), v.end());
+
+	vector<int>::iterator it;
+
+	for (it = v.begin(); it != v.end(); it++) {
+		cout << *it << ' ';
+	}
+	cout << endl;
+}
