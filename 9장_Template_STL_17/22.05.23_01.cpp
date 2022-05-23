@@ -44,7 +44,38 @@ size()					맵에 들어있는 원소의 개수 리턴
 operator[key_type& key]()	맵에서 '키' 값에 해당하는 원소를 찾아 '값' 리턴
 operator=()				맵 치환(복사)
 
-
 */
 
 #include <iostream>
+#include <string>
+#include <map>
+using namespace std;
+
+int main() {
+	map<string, string> dic;
+
+	dic.insert(make_pair("banana", "바나나"));
+	dic.insert(make_pair("mango", "망고"));
+	dic["cherry"] = "체리";
+
+	cout << "저장된 단어 개수" << dic.size() << endl;
+
+	string eng;
+	while (true) {
+		cout << "찾고 싶은 단어 >> ";
+		getline(cin, eng);
+		
+		if (eng == "exit") {
+			break;
+		}
+
+		if (dic.find(eng) == dic.end()) {
+			cout << "없음" << endl;
+		}
+		else {
+			cout << dic[eng] << endl;
+		}
+	}
+
+	cout << "종료합니다........" << endl;
+}
