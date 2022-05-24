@@ -18,5 +18,8 @@
     <ClCompile Include="hello_Would.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\9장_Template_STL_20\22.05.24_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -19,3 +19,10 @@ ex) 작성 가능한 캡쳐 리스트
 [x] -> 변수 x의 값 활용 / [&x] -> 참조 변수 x 활용
 [=] -> 모든 변수의 값 활용 / [&] -> 모든 참조 변수 활용
 */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	[](int x, int y) { cout << "합은 " << x + y; } (2, 3);
+}
