@@ -46,3 +46,32 @@ for (auto it = v.begin(); it != v.end(); it++) {
 기존의 방법에서 선언한 vector<int>::iterator it; 을 생략해도 된다.
 */
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int square(int x) { return x * x; }
+
+int main() {
+	auto c = 'a';
+	auto pi = 3.14;
+	auto ten = 10;
+	auto* p = &ten;
+	cout << c << ", " << pi << ", " << ten << ", " << p << endl;
+
+	auto ret = square(ten);
+	cout << *p << ", " << ret << endl;
+
+	vector<int> v = { 1,2,3,4,5,6 };
+	vector<int>::iterator it;
+	for (it = v.begin(); it != v.end(); it++) {
+		cout << *it << " ";
+	}
+	cout << endl;
+
+	// 템플릿에 auto를 사용하면 위에서 선언한 복잡한 식을 줄일수 있다!!!
+	for (auto it = v.begin(); it != v.end(); it++) {
+		cout << *it << " ";
+	}
+	cout << endl;
+}
