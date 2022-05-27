@@ -44,6 +44,9 @@ for (auto it = v.begin(); it != v.end(); it++) {
 }
 
 기존의 방법에서 선언한 vector<int>::iterator it; 을 생략해도 된다.
+
+이렇듯 auto 를 활용한 코드 작성은 코드의 가시성을 높여줄 뿐만 아니라 
+엔지니어의 실수를 줄일 수 있는 역할을 동시에 수행할 수 있는 효자(?)기능이다.
 */
 
 #include <iostream>
