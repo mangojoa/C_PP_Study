@@ -15,9 +15,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1장_C++_Programning_Basic_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1장_C++_Programning_Basic_05", "..\1장_C++_Programning_Basic_05\1장_C++_Programning_Basic_05.vcxproj", "{3093D0EF-DBEF-4664-A87F-9C34AECA792E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1장", "1장", "{C149EB2D-D8F7-417E-9E8D-6ED0C90B0C93}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01장", "01장", "{C149EB2D-D8F7-417E-9E8D-6ED0C90B0C93}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2장", "2장", "{1D14113F-2B4B-405E-A6B6-FDC9CBB57399}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02장", "02장", "{1D14113F-2B4B-405E-A6B6-FDC9CBB57399}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_01", "..\2장_C++_Class and Object_01\2장_C++_Class and Object_01.vcxproj", "{C398D4B2-6741-46A1-86F5-65888CA89877}"
 EndProject
@@ -45,7 +45,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2장_C++_Class and Object_13", "..\2장_C++_Class and Object_13\2장_C++_Class and Object_13.vcxproj", "{C29BFC25-D3E4-459E-966F-F5818E95A29E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3장", "3장", "{C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03장", "03장", "{C9BB6BC5-4A55-41D3-9850-DF19E3BCEDB6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memory_01", "..\3장_C++_Pointer_Array_Memory_01\3장_C++_Pointer_Array_Memory_01.vcxproj", "{F21F30F8-4B81-4200-8D6C-78B841728A84}"
 EndProject
@@ -73,7 +73,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3장_C++_Pointer_Array_Memory_13", "..\3장_C++_Pointer_Array_Memory_13\3장_C++_Pointer_Array_Memory_13.vcxproj", "{BFDD93FE-A70D-4D19-83DE-876997C07A06}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4장", "4장", "{6DEA4857-864A-4642-8DA1-051E9B2415F9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04장", "04장", "{6DEA4857-864A-4642-8DA1-051E9B2415F9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_01", "..\4장_Function_Reference_01\4장_Function_Reference_01.vcxproj", "{E7DC2DBA-7926-4CFD-AF2D-C124A40F16C7}"
 EndProject
@@ -103,7 +103,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_13"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4장_Function_Reference_14", "..\4장_Function_Reference_14\4장_Function_Reference_14.vcxproj", "{F2AF6D35-9569-42CD-82CC-D8DD3312BC5E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5장", "5장", "{5405B38C-88A5-4FAF-AD7B-26EF798FC29B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05장", "05장", "{5405B38C-88A5-4FAF-AD7B-26EF798FC29B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5장_function_overloading_static_member_01", "..\5장_function_overloading_static_member_01\5장_function_overloading_static_member_01.vcxproj", "{8B4A1FFE-2777-417D-92C2-CD5EC011DD42}"
 EndProject
@@ -129,7 +129,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5장_function_overloading_s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5장_function_overloading_static_member_12", "..\5장_function_overloading_static_member_12\5장_function_overloading_static_member_12.vcxproj", "{83D0E512-4178-4A8B-8F3F-5D2648E3C53D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6장", "6장", "{8DD61113-6136-40DD-A635-F61548973662}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06장", "06장", "{8DD61113-6136-40DD-A635-F61548973662}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overloading_01", "..\6장_friend_operator_overloading_01\6장_friend_operator_overloading_01.vcxproj", "{EDC6F61A-1F04-4DEB-826F-08D6D17D2BE6}"
 EndProject
@@ -161,7 +161,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overlo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6장_friend_operator_overloading_15", "..\6장_friend_operator_overloading_15\6장_friend_operator_overloading_15.vcxproj", "{E8CAFB4E-537E-408F-94F2-6CEDCB0427D6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7장", "7장", "{D6147281-D026-4961-8AE3-F42C8D88E3FC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07장", "07장", "{D6147281-D026-4961-8AE3-F42C8D88E3FC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7장_inheritance_01", "..\7장_inheritance_01\7장_inheritance_01.vcxproj", "{539A16B7-EB0D-4EDA-8114-09FDEE5E7CCF}"
 EndProject
@@ -183,7 +183,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7장_inheritance_09", "..\7
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7장_inheritance_10", "..\7장_inheritance_10\7장_inheritance_10.vcxproj", "{FA91A667-1AA3-4A3F-89CA-1A70907C4AA5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8장", "8장", "{AF2F2B1A-313A-4725-A509-2E93AFE5B6E7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08장", "08장", "{AF2F2B1A-313A-4725-A509-2E93AFE5B6E7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8장_Virtual Function_Abstract Class_01", "..\8장_Virtual Function_Abstract Class_01\8장_Virtual Function_Abstract Class_01.vcxproj", "{E6334BC3-6E9D-4811-8F1F-02DB699D05E9}"
 EndProject
@@ -207,7 +207,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8장_Virtual Function_Abstr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8장_Virtual Function_Abstract Class_11", "..\8장_Virtual Function_Abstract Class_11\8장_Virtual Function_Abstract Class_11.vcxproj", "{81DB1475-7379-4C0E-B523-1629B3238D7A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9장", "9장", "{0D2AA53A-8C32-4DC0-8E9F-4424D467F3D5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09장", "09장", "{0D2AA53A-8C32-4DC0-8E9F-4424D467F3D5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9장_Template_STL_01", "..\9장_Template_STL_01\9장_Template_STL_01.vcxproj", "{3A638846-4EF2-49E1-A829-C120095C47CA}"
 EndProject
@@ -256,6 +256,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9장_Template_STL_23", "..\9장_Template_STL_23\9장_Template_STL_23.vcxproj", "{2C220542-C74A-46FE-9DE6-4FE7E64A1DC9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9장_Template_STL_24", "..\9장_Template_STL_24\9장_Template_STL_24.vcxproj", "{708B19AC-08C1-42DA-80AB-544CA378ED81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10장", "10장", "{BFC29E5D-4A42-41F3-8FEC-BF81CC54A6E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10장_String_input_output_System_01", "..\10장_String_input_output_System_01\10장_String_input_output_System_01.vcxproj", "{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1209,6 +1213,14 @@ Global
 		{708B19AC-08C1-42DA-80AB-544CA378ED81}.Release|x64.Build.0 = Release|x64
 		{708B19AC-08C1-42DA-80AB-544CA378ED81}.Release|x86.ActiveCfg = Release|Win32
 		{708B19AC-08C1-42DA-80AB-544CA378ED81}.Release|x86.Build.0 = Release|Win32
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Debug|x64.ActiveCfg = Debug|x64
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Debug|x64.Build.0 = Debug|x64
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Debug|x86.ActiveCfg = Debug|Win32
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Debug|x86.Build.0 = Debug|Win32
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Release|x64.ActiveCfg = Release|x64
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Release|x64.Build.0 = Release|x64
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Release|x86.ActiveCfg = Release|Win32
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1331,6 +1343,7 @@ Global
 		{B4C72F10-E66F-480E-A8CB-A848E04897E1} = {0D2AA53A-8C32-4DC0-8E9F-4424D467F3D5}
 		{2C220542-C74A-46FE-9DE6-4FE7E64A1DC9} = {0D2AA53A-8C32-4DC0-8E9F-4424D467F3D5}
 		{708B19AC-08C1-42DA-80AB-544CA378ED81} = {0D2AA53A-8C32-4DC0-8E9F-4424D467F3D5}
+		{AABE5494-DE73-4D3D-A8EB-CD5A20108D53} = {BFC29E5D-4A42-41F3-8FEC-BF81CC54A6E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC38B86-D367-4868-9A0F-6E88F51E44E1}
