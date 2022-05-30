@@ -36,3 +36,31 @@ while (true) {
 	if (ch != '\n') break; // <Enter> 키가 입력된 경우, 읽기 종료
 }
 */
+
+#include <iostream>
+using namespace std;
+
+void get1() {
+	cout << "cin.get()로 <Enter>키까지 입력 받고 출력 >> ";
+	int ch;
+	while ((ch = cin.get()) != EOF) {
+		cout.put(ch);
+		if (ch == '\n') break;
+	}
+}
+
+void get2() {
+	cout << "cin.get(char& ch)로 <Enter>키까지 입력 받고 출력 >> ";
+	char ch;
+	while (true) {
+		cin.get(ch);
+		if (cin.eof()) break; // EOF 문자 즉 ctrl-z 키가 입력된 경우, 읽기 종료
+		cout.put(ch);
+		if (ch == '\n') break; // <Enter> 키가 입력된 경우, 읽기 종료
+	}
+}
+
+int main() {
+	get1();
+	get2();
+}
