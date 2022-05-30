@@ -15,4 +15,35 @@ cin -> 키보드 장치와 연결된 istream 타입의 표준 입력 스트림 객체
 cout -> 스크린 장치와 연결된 ostream 타입의 표준 출력 스트림 객체
 cerr 와 clog -> 표준 오류 출력 스트림 객체 
 clog는 버퍼를 거치지만, cerr는 버퍼를 거치지 않고 스크린에 오류 메세지 출력
+
+## put() 
+put()은 문자 단위로 출력하는 함수이다.
+cout.put('a');
+cout.put(33);
+cout.put('c').put('+').put('+').put(' '); // 이렇게 연결해서도 출력할 수 있다.
+
+## write()
+write()는 char배열에 들어있는 문자들을 출력하는 함수이다.
+char str[] = "I Love C++ programming";
+cout.write(str, 6); // str에 있는 6개의 문자 출력
+
+## flush()
+flush()는 출력 버퍼에 있는 문자들을 모두 강제로 출력시키는 함수이다.
+cout.put('a');
+cout.flush(); // 스트림 버퍼에 있는 문자 'a'를 강제로 출력한다. 
 */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout.put('C');
+	cout.put('+');
+	cout.put('+');
+	cout.put('\n');
+
+	cout.put('c').put('+').put('+').put(' ');
+
+	char str[] = "I Love C++ programming";
+	cout.write(str, 6);
+}
