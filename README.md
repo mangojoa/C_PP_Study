@@ -20,7 +20,6 @@
 
 9장_Template_STL
 
-10장_
+10장_String_input_output_System
 
-
-연습문제의 경우 따로 repository 를 생성해서 올릴 예정입니다 
+연습문제는 따로 https://github.com/mangojoa/C-_Practice_problem 에 
