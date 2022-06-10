@@ -15,7 +15,17 @@ long setf(long flags)
 flags를 스트림의 포맷 플래그로 성정하고 이전 플래그를 리턴한다.
 
 long unsetf(long flags)
-flags에 설정된 비트 값에 따라 스트림의 포멧 플래그를 해제하고 이전 플래그를 리턴한다. 
+flags에 설정된 비트 값에 따라 스트림의 포멧 플래그를 해제하고 이전 플래그를 리턴한다.
+
+플래그는 총 4개다.
+
+- goodbit :스트림에 입출력이 가능할 때
+
+- badbit : 스트림에 복구 불가능한 오류 발생
+
+- failbit : 스트림에 복구 가능한 오류 발생
+
+- eofbit : 입력 작업시에 EOF(end of file: 파일의 끝)에 도달시
 */
 
 #include <iostream>
