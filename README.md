@@ -22,4 +22,4 @@
 
 10장_String_input_output_System
 
-연습문제는 따로 https://github.com/mangojoa/C-_Practice_problem 에 
+연습문제는 따로 https://github.com/mangojoa/C-_Practice_problem 에 개시할 예정입니다
